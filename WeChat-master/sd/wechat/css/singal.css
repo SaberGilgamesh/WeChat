@@ -1,0 +1,117 @@
+#signal {
+	background-color: #212121;
+	width: 100%;
+	height: 30px;
+	display: flex;   
+}
+
+#singal_left {
+	flex:3;
+	height: 100%;
+}
+
+#singal_center {
+	flex: 1.5;
+	height: 100%;
+}
+
+#singal_right {
+	flex:3;
+	height: 100%;
+}
+
+
+
+/* singal_level : start */
+#singal_level {
+	height: 84%;
+	width: 42px;
+	margin-left: 4px;
+}
+#singal_level div {
+	margin-bottom: 4px;
+	width: 4px;
+}
+
+#singal_level div:nth-child(1) {
+	height: 8px;
+}
+#singal_level div:nth-child(2) {
+	height: 10px;
+}
+#singal_level div:nth-child(3) {
+	height: 12px;
+}
+#singal_level div:nth-child(4) {
+	height: 14px;
+}
+#singal_level div:nth-child(5) {
+	height: 16px;
+}
+/* singal_level : end */
+
+/*  singal   strong and weak  :  start  */
+.singal_strong {
+	background-color: white;
+	border-radius: 1px 1px 0px 0px;
+	
+}
+
+.singal_weak {
+	border: 1px solid  white;
+	
+	border-radius: 1px 1px 0px 0px;	
+}
+/*  singal   strong and weak  :  endt  */
+
+/* singal_operator : start */
+#singal_operator {
+	height: 100%;
+	width: 70px;
+}
+/* singal_operator : end */
+
+/*   singal-font */ 
+.singal-font {
+	font-weight: 300;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 80%;
+}
+
+
+
+
+/* battery : start */
+#battery {
+	width: 36px;
+	height: 13px;
+	border: 1px solid white;
+	margin-left: 3px;
+}
+
+#battery_body {
+	width: 4px;
+	height: 13px;
+	background-color: red;
+}
+
+#battery_header {
+	height: 6px;
+	width: 2px;
+	background-color: white;
+	margin-right: 6px;
+}
+
+/* battery : end */
+#singal_item {
+	flex: 1;
+	height: 16px;
+}
+
+.singal_items {
+	height: 16px; width: 16px;
+	background-size: contain;
+	background-position: center;
+}
+
